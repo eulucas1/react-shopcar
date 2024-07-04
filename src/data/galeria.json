@@ -1,0 +1,119 @@
+[
+  {
+    "title": "FIAT CRONOS ",
+    "description": "Fiat Cronos 1.8 16V Flex Automático",
+    "photo": "/assets/carros/cronos.jpg",
+    "year": 2021,
+    "doors": 4,
+    "price": 83,
+    "id": 1,
+    "category": {
+      "id": 2,
+      "label": "Sedan"
+    }
+  },
+  {
+    "title": "CHEVROLET ONIX",
+    "description": "Chevrolet Onix 1.0 12V Flex Automático!",
+    "photo": "/assets/carros/onix.png",
+    "year": 2022,
+    "doors": 4 ,
+    "price": 85,
+    "id": 2,
+    "category": {
+      "id": 1,
+      "label": "Hatch"
+    }
+  },
+  {
+    "title": "CHEVROLET CORVETTE",
+    "description": "Corvette 5.7/ 6.0, 6.2 Conv./Stingray",
+    "photo": "/assets/carros/corvette.jpg",
+    "year": 2015,
+    "doors": 2,
+    "price": 706,
+    "id": 3,
+    "category": {
+      "id": 4,
+      "label": "Esportivo"
+    }
+  },
+  {
+    "title": "VOLKSWAGEN NIVUS",
+    "description": "Nivus Launching Ed. 1.0 200TSI Flex Automático",
+    "photo": "/assets/carros/nivus.jpg",
+    "year": 2022,
+    "doors": 4,
+    "price": 125,
+    "id": 4,
+    "category": {
+      "id": 3,
+      "label": "SUV"
+    }
+  },
+  {
+    "title": "PORSCHE TAYCAN 4s",
+    "description": "Porsche Taycan 4s Elétrico",
+    "photo": "/assets/carros/taycan.png",
+    "year": 2023,
+    "doors": 4,
+    "price": 855,
+    "id": 5,
+    "category": {
+      "id": 4,
+      "label": "Esportivo"
+    }
+  },
+  {
+    "title": "HYUNDAY HB20",
+    "description": "HB20 Launch Edition 1.6 Flex 16V Automático",
+    "photo": "/assets/carros/hb20.png",
+    "year": 2020,
+    "doors": 4,
+    "price": 76,
+    "id": 6,
+    "category": {
+      "id": 1,
+      "label": "Hatch"
+    }
+  },
+  {
+    "title": "JEEP COMMANDER",
+    "description": "Commander Limited TD380 2.0 4x4 Diesel Automático",
+    "photo": "/assets/carros/commander.jpg",
+    "year": 2023,
+    "doors": 4,
+    "price": 242,
+    "id": 7,
+    "category": {
+      "id": 3,
+      "label": "SUV"
+    }
+  },
+  {
+    "title": "FORD MUSTANG",
+    "description": "Mustang Black Shadow 5.0 V8.",
+    "photo": "../assets/carros/mustang.jpg",
+    "year": 2020,
+    "doors": 2,
+    "price": 419,
+    "id": 8,
+    "category": {
+      "id": 4,
+      "label": "Esportivo"
+    }
+  },
+  {
+    "title": "VOLKSWAGEN VIRTUS",
+    "description": "VIRTUS GTS 1.4 TSI 16V Flex",
+    "photo": "/assets/carros/virtus.jpg",
+    "year": 2022,
+    "doors": 4,
+    "price": 123,
+    "id": 9,
+    "category": {
+      "id": 2,
+      "label": "Sedan"
+    }
+  }
+]

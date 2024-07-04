@@ -1,0 +1,35 @@
+@import 'styles/variaveis';
+
+.recomendados {
+  border-radius: 2px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.recomendado {
+  &__imagem {
+    width: 300px;
+    margin-bottom: 10px;
+    img {
+      border-radius: 8px;
+      height: 240px;
+      width: 300px
+    }
+  }
+  &__botao {
+    background-color: $red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: .2s ease;
+    width: 100%;
+    &:hover {
+      background-color: $dark;
+    }
+  }
+}

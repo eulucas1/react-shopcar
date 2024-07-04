@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Hatch",
+    "id": 1
+  },
+  {
+    "label": "Sedan",
+    "id": 2
+  },
+  {
+    "label": "SUV",
+    "id": 3
+  },
+  {
+    "label": "Esportivo",
+    "id": 4
+  }
+]

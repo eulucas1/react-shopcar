@@ -1,0 +1,65 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+$esportivo: #FF0060;
+$sedan: #0079FF;
+$suv: #F6FA70;
+$hatch: #00DFA2;
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 700px;
+  @media (max-width: $desktop_xsm) {
+    justify-content: flex-end;
+  }
+  @media (max-width: $mobile) {
+    justify-content: flex-start;
+  }
+  img {
+    border-radius: 8px;
+    height: 240px;
+    width: 240px
+  }
+  > div {
+    margin: 10px;
+  }
+  &__tipo {
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 30px;
+    &__esportivo {
+      background-color: $esportivo;
+      color: white;
+    }
+    &__sedan {
+      background-color: $sedan;
+      color: white;
+    }
+    &__suv {
+      background-color: $suv;
+    }
+    &__hatch {
+      background-color: $hatch;
+    }
+  }
+  &__ano,
+  &__portas,
+  &__valor {
+    align-items: center;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+  &__valor {
+    color: $dark;
+    font-size: 1.7rem;
+  }
+}
