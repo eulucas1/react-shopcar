@@ -2,15 +2,18 @@
 @import "./breakpoints";
 
 .container {
-  padding: 50px $padding-horizontal;
+  padding: 50px calc(10% + 1rem);
+  max-width: 1280px;
+  margin: 0 auto;
+
   @media (max-width: $desktop_xsm) {
-    padding: 50px $padding-horizontal-mobile;
+    padding: 50px calc(5% + 1rem);
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 50px $padding-horizontal-sm;
+    padding: 50px calc(8% + 1rem);
   }
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 50px $padding-horizontal-md;
+    padding: 50px calc(12% + 1rem);
   }
 }
 

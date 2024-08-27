@@ -35,7 +35,7 @@
     "id": 3,
     "category": {
       "id": 4,
-      "label": "Esportivo"
+      "label": "Luxo"
     }
   },
   {
@@ -61,7 +61,7 @@
     "id": 5,
     "category": {
       "id": 4,
-      "label": "Esportivo"
+      "label": "Luxo"
     }
   },
   {
@@ -91,7 +91,7 @@
     }
   },
   {
-    "title": "FORD MUSTANG",
+    "title": "FORD MUSTANG           ",
     "description": "Mustang Black Shadow 5.0 V8.",
     "photo": "../assets/carros/mustang.jpg",
     "year": 2020,
@@ -100,7 +100,7 @@
     "id": 8,
     "category": {
       "id": 4,
-      "label": "Esportivo"
+      "label": "Luxo"
     }
   },
   {

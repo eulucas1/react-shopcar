@@ -1,7 +1,7 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
-$esportivo: #FF0060;
+$luxo: #FF0060;
 $sedan: #0079FF;
 $suv: #F6FA70;
 $hatch: #00DFA2;
@@ -34,8 +34,8 @@ $hatch: #00DFA2;
     height: 40px;
     justify-content: center;
     padding: 10px 30px;
-    &__esportivo {
-      background-color: $esportivo;
+    &__luxo {
+      background-color: $luxo;
       color: white;
     }
     &__sedan {

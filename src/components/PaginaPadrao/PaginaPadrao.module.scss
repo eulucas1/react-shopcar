@@ -4,11 +4,13 @@
 .header {
   align-items: center;
   background-image: url("/assets/galeria/header.png");
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   height: 300px;
   padding: 0px $padding-horizontal;
+  
   @media (max-width: $desktop_xsm) {
     padding: 0px $padding-horizontal-mobile;
   }
@@ -18,10 +20,21 @@
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
     padding: 0px $padding-horizontal-md;
   }
+
   &__text {
     color: white;
-    font-size: 5rem;
-    min-width: 400px;
+    font-size: 4rem;
+    min-width: 300px;
     width: 60%;
+    max-width: 800px;
+
+    @media (max-width: $mobile) {
+      font-size: 2.5rem;
+      min-width: auto;
+    }
+
+    @media (min-width: $desktop_sm) {
+      font-size: 5rem;
+    }
   }
 }

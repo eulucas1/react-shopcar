@@ -6,7 +6,7 @@ import { Carro } from 'types/Carro';
 
 export default function Inicio() {
   let carrosRecomendados = [...galeria];
-  carrosRecomendados = carrosRecomendados.sort(() => 0.5 - Math.random()).splice(0,3);
+  carrosRecomendados = carrosRecomendados.sort(() => 0.5 - Math.random()).splice(0, 3);
   const navigate = useNavigate();
 
   function redirecionarParaDetalhes(carro: Carro) {
@@ -23,8 +23,8 @@ export default function Inicio() {
           <div key={item.id} className={styles.recomendado}>
             <div className={styles.recomendado__imagem}>
               <img src={item.photo} alt={item.title} />
-              <h3 className={styles.titulo}>{item.title}</h3>
             </div>
+            <h3 className={styles.recomendado__texto}>{item.title}</h3>
             <button
               className={styles.recomendado__botao}
               onClick={() => redirecionarParaDetalhes(item)}
